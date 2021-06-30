@@ -1,0 +1,34 @@
+.contacts {
+  &__title {
+    @extend %title;
+    text-align: center;
+    padding: 60px 0px 60px 0px;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: $primary_color;
+    align-items: center;
+  }
+
+  &__text {
+    margin: 0px 0px 0px 45px;
+  }
+
+  &__text-logo {
+    color: $secondary_color;
+    margin: 0px 0px 40px 0px;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 1.4;
+  }
+
+  &__text-adress {
+    margin: 20px 0px 0px 0px;
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 600;
+    color: $secondary_color;
+  }
+}

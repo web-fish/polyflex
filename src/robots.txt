@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Host: polyflex.su
+Sitemap: http://polyflex.su/sitemap.xml

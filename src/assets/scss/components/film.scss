@@ -1,0 +1,99 @@
+.film {
+  &__wrapper {
+    margin: 160px 0px 40px 0px;
+  }
+  &__header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  &__header-title {
+    color: $secondary_color;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0px 0px 40px 0px;
+  }
+
+  &__about {
+    display: flex;
+    max-width: 85%;
+    margin: 0 auto;
+  }
+
+  &__about-prop {
+    flex: 0 1 50%;
+    margin: 0px 20px 0px 0px;
+  }
+  &__about-prop:nth-child(2) {
+    margin: 0;
+  }
+
+  &__about-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0px 0px 15px 0px;
+    color: $secondary_color;
+  }
+
+  &__about-text {
+    line-height: 1.4;
+    font-size: 16px;
+    padding: 0px 0px 8px 15px;
+    position: relative;
+    color: $secondary_color;
+  }
+  &__about-text::before {
+    width: 8px;
+    height: 8px;
+    content: "";
+    top: 5px;
+    left: 0;
+    position: absolute;
+    background-color: $primary_color;
+  }
+
+  &__img {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 20px 0px;
+  }
+
+  &__table {
+    margin: 0 auto;
+  }
+  &__table th {
+    background-color: $primary_color;
+    color: $secondary_color;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px;
+  }
+  &__table td {
+    background-color: $third_color;
+    color: $secondary_color;
+    text-align: center;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+  &__text {
+    margin: 20px auto 10px auto;
+    max-width: 82%;
+  }
+
+  &__text-descr {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  &__text-descr--subtitle {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.7;
+    margin: 20px 0px 0px 0px;
+  }
+}

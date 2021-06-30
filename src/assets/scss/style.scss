@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+@import "reset";
+@import "vars";
+@import "template";
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+#app {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+@import "components/nav";
+@import "components/header";
+@import "components/catalog";
+@import "components/advantages";
+@import "components/contacts";
+@import "components/footer";
+@import "components/topbutton";
+@import "components/film";
+@import "components/error";

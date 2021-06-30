@@ -1,0 +1,22 @@
+%title {
+   font-size: 34px;
+   font-weight: 800;
+   line-height: 1.4;
+   color: $secondary_color;
+}
+
+%subtitle {
+   font-size: 20px;
+   font-weight: 500;
+   color: $secondary_color;
+   line-height: 1.4;
+}
+
+%button {
+   background-color: $primary_color;
+   padding: 10px;
+   margin: 15px 0px 10px 10px;
+   text-transform: uppercase;
+}
+
+// @extend %title

@@ -1,0 +1,62 @@
+.catalog {
+	&__wrapper {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		padding: 0px 0px 60px 0px;
+	}
+
+	&__title {
+		@extend %title;
+		text-align: center;
+		padding: 0px 0px 50px 0px;
+	}
+	&__cart {
+		flex: 0 1 24%;
+		border: 1px solid $third_color;
+		margin: 0px 25px 25px 0px;
+	}
+	&__cart--header {
+		background: url("/assets/images/img_08_02.jpg") 0 0 / auto no-repeat;
+		object-fit: cover;
+	}
+
+	&__cart-title {
+		font-size: 16px;
+		font-weight: 700;
+		color: $secondary_color;
+		padding: 20px 10px 15px 10px;
+		line-height: 1.6;
+	}
+
+	&__cart-subtitle {
+		font-size: 14px;
+		line-height: 1.4;
+		padding: 0px 10px 20px 10px;
+	}
+	&__cart-out {
+		font-size: 14px;
+		font-weight: 700;
+		padding: 0px 0px 0px 10px;
+		line-height: 1.5;
+		color: $secondary_color;
+	}
+	&__cart-plot {
+		font-size: 14px;
+		font-weight: 700;
+		padding: 0px 0px 0px 10px;
+		color: $secondary_color;
+	}
+
+	&__cart-btn {
+		@extend %button;
+	}
+	&__cart-btn:hover {
+		background-color: $secondary_color;
+	}
+	&__cart-link {
+		color: $white_color;
+		font-size: 12px;
+		font-weight: 600;
+	}
+}
